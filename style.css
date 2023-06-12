@@ -85,7 +85,7 @@ body {
   grid-column: 1;
   grid-row: 1 / 3;
   background-color: #100C38;
-  background-size: auto;
+  background-attachment: fixed;
   margin: 0;
 }
 
@@ -134,7 +134,31 @@ body {
   column-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
+}
 
+.project-cards {
+  border-radius: 5px;
+  background-color: #E7F3F1;
+  color: black;
+  margin: 10px;
+  padding-left: 0;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 20px, max-content;
+  grid-template-rows: 2;
+  column-gap: 5px;
+}
+
+.color-bar {
+  background-color: #BF2062;
+  grid-column: 1;
+  margin: 0;
+  width: 10px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.card-content {
+  grid-column: 2;
 }
 
 .announcements {
@@ -156,7 +180,4 @@ body {
   list-style: none;
 }
 
-.project-cards {
-
-}
 

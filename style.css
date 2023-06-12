@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #100C38;
+  background-color: #BFB5C9;
   color: #E7F3F1; 
+  margin: 0;
 }
 
 .dashboard-container {
@@ -10,6 +11,21 @@ body {
   column-gap: 10px;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 2;
+
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.large-icon {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
 }
 
 .icon {
@@ -59,12 +75,14 @@ ul .left-nav {
 
 .left-nav span {
   font-size: 16px;
+  vertical-align: middle;
 }
 
 .nav {
   border: solid black 1px;
   grid-column: 1;
   grid-row: 1 / 3;
+  background-color: #100C38;
 }
 
 .top-bar {

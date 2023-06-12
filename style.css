@@ -11,6 +11,27 @@ body {
   grid-template-rows: 2;
 }
 
+button {
+  background-color:#100C38;
+  border-radius: 20px;
+  color:#E7F3F1;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input {
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+button:active {
+  background-color: #8D52C4;
+}
+
 .title-container {
   display: flex;
   flex-direction: row;
